@@ -1,0 +1,8 @@
+config:
+  aws:
+    region: us-east-1
+    dynamo:
+      url: http://127.0.0.1:4566
+      bucket-name: dandelion-s3-bucket
+      access-key: localstack
+      secret-key: localstack
